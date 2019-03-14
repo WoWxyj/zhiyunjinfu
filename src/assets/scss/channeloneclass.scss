@@ -1,0 +1,370 @@
+.indexloanTopTitle{
+  width: 100%;
+  position: fixed;
+  min-width: 320px;
+  max-width: 750px;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 999;
+  height: 88px;
+  height: 88px;
+  line-height: 88px;
+  text-align: center;
+  color: #fff;
+  font-size: 34px;
+  background: url(../../assets/changeImg/nav-top-icon-bg.png) no-repeat;
+  background-size: 100%;
+  span {
+    position: absolute;
+    right: 24px;
+    line-height: 28px;
+    font-size: 28px;
+    top: 34px;
+    padding-left: 40px;
+    img {
+      width: 36px;
+      height: 36px;
+    }
+  }
+}
+
+// 搜索
+.indSearch {
+  width: 100%;
+  background: $whitebackground;
+  height: 76px;
+  line-height: 76px;
+  overflow: hidden;
+  border-top: 2px #F8F8FB solid;
+  position: relative;
+  .sliderClock{
+    position: absolute;
+    left: 24px;
+    top: 24px;
+    display: inline-block;
+    img{
+      width: 31px;
+      height: 26px;
+    }
+  }
+  .marquee_list{
+    padding-left: 78px;
+    li{
+      height: 76px;
+      line-height: 76px;
+      font-size: 24px;
+      color: #2D2D2D;
+    }
+  }
+  .marquee_top {
+    transition: all 0.8s;
+    margin-top: -76px;
+  }
+}
+
+.centerSearch {
+  padding-top: 10px;
+  width: 100%;
+  .searchAll {
+    width: 100%;
+    padding-top: 16px;
+    position: $relative;
+    h3 {
+      text-align: center;
+      font-size: 34px;
+      font-weight: 500;
+      color: #fff;
+      line-height: 50px;
+    }
+    img {
+      width: 100%;
+    }
+    .address {
+      width: 32px;
+      height: 38px;
+      float: $left;
+      position: $absolute;
+      left: $left24;
+      top: $top;
+    }
+    .setting {
+      width: 34px;
+      height: 32px;
+      float: $left;
+      position: $absolute;
+      left: $left24;
+      top: $top;
+    }
+    .sports {
+      width: 33px;
+      height: 36px;
+      position: $absolute;
+      right: $left24;
+      top: $top;
+    }
+    .search {
+      width: 640px;
+      height: 54px;
+      margin: 0 0 0 30px;
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 27px;
+      position: $relative;
+      i {
+        width: 26px;
+        height: 26px;
+        display: $block;
+        position: $absolute;
+        top: 14px;
+        left: 20px;
+      }
+      ul {
+        width: 90%;
+        height: 54px;
+        line-height: 54px;
+        overflow: hidden;
+        position: $absolute;
+        top: 0;
+        left: 57px;
+        color: $fff;
+        font-size: $fontSize22;
+      }
+    }
+  }
+  .searchAll::after {
+    display: $block;
+    content: '';
+    clear: both;
+  }
+}
+
+// 第一板块icon
+.plateOne {
+  margin: 20px 0 10px;
+  position: $relative;
+  z-index: 1;
+  ul {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    li {
+      width: 370px;
+      height: 136px;
+      margin-bottom: 10px;
+      background: $whitebackground;
+      .leftlable, .rightlable{
+        display: inline-block;
+      }
+      .leftlable{
+        width: 200px;
+        overflow: hidden;
+        padding-left: 25px;
+        h3{
+          font-size: 28px;
+          color: #333;
+          margin: 24px 0 14px;
+        }
+        p{
+          font-size: 26px;
+          color: #959595;
+        }
+      }
+      .rightlable{
+        float: right;
+        margin: 36px 24px 0 0;
+        img {
+          width: 75px;
+          height: 65px;
+        }
+      }
+    }
+  }
+}
+
+// 第二版块轮播
+.sliderPlateDiv {
+  background: $whitebackground;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  padding: 120px 0 40px;
+  display: flex;
+  .sliderDiv {
+    width: 25%;
+    text-align: center;
+    img {
+      width: 90px;
+      height: 90px;
+    }
+    span {
+      display: $block;
+      font-size: 28px;
+      padding-top: 20px;
+      color: #000;
+    }
+  }
+}
+.advantageImg{
+  width: 100%;
+  height: 147px;
+  padding: 18px 0;
+  text-align: center;
+  margin-bottom: 20px;
+  background: $whitebackground;
+  img{
+    width: 700px;
+    height: 147px;
+    margin: 0 auto;
+  }
+}
+
+
+.allproductcont{
+  width: 100%;
+  background: $whitebackground;
+  .specialTitle{
+    height: 79px;
+    line-height: 79px;
+    h3{
+      padding: 0 24px;
+      .specialTitleIcon{
+        display: inline-block;
+        vertical-align: top;
+        padding-top: 18px;
+        padding-right: 10px;
+        width: 36px;
+        height: 41px;
+        img{
+          width: 100%;
+        }
+      }
+      color: #000000;
+      font-size: 32px;
+      .lookMore{
+        font-size: 26px;
+        color: #666;
+        font-weight: normal;
+        float: right;
+        .specialTitleIconGt{
+          display: inline-block;
+          vertical-align: top;
+          width: 13px;
+          height: 25px;
+          padding-top: 28px;
+          img{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  // 首页贷款大全列表样式
+  .indexContDiv {
+    background: #fff;
+    margin-bottom: 100px;
+    li {
+      width: 732px;
+      height: 216px;
+      margin: 0 auto;
+      background: url(../../assets/img/loan-all-produ-bg.png) no-repeat;
+      background-size: 100%;
+      position: relative;
+      .loanposiLabel {
+        position: absolute;
+        width: 188px;
+        height: 148px;
+        transform: rotate(20deg);
+        top: 20px;
+        right: 204px;
+        img {
+          width: 100%;
+        }
+        .loanIconSpan {
+          position: absolute;
+          font-size: 16px;
+          top: 62px;
+          color: #fff;
+          left: 18px;
+        }
+      }
+      .loanContDivTop {
+        position: relative;
+        height: 130px;
+        width: 702px;
+        margin: 0 auto;
+        padding: 4px 0 6px;
+        border-bottom: 1px #E5E5E5 solid;
+        &:after {
+          display: block;
+          content: '';
+          clear: both;
+        }
+        .loanContDivTopImg {
+          float: left;
+          width: 74px;
+          height: 74px;
+          overflow: hidden;
+          padding-left: 15px;
+          padding-top: 20px;
+          img {
+            width: 100%;
+          }
+        }
+        .loanContDivTopTitlt {
+          float: left;
+          padding-left: 21px;
+          h3 {
+            font-size: 26px;
+            color: #444;
+            line-height: 40px;
+            padding-top: 10px;
+          }
+          p {
+            font-size: 22px;
+            color: #999;
+            padding-top: 8px;
+            span {
+              color: #F9565A;
+            }
+          }
+        }
+        .loanContDivTopapply {
+          position: absolute;
+          right:0;
+          padding: 20px 20px 0 0;
+          text-align: center;
+          span {
+            display: block;
+            font-size: 22px;
+            color: #999;
+          }
+          .loanContApply {
+            width: 170px;
+            height: 80px;
+            line-height: 70px;
+            text-align: center;
+            background: url(../../assets/changeImg/loan-button-spply-icon.png) no-repeat;
+            background-size: 100%;
+            font-size: 26px;
+            color: #fff;
+          }
+        }
+      }
+      .loanContDivBottom {
+        width: 92%;
+        text-align: left;
+        line-height: 55px;
+        height: 55px;
+        overflow: hidden;
+        padding-left: 30px;
+        color: #666;
+      }
+    }
+  }
+}
